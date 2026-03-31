@@ -1,21 +1,29 @@
 # MichealScott-Homelab
 
 **Building practical IT skills through a hands-on homelab**  
-Documenting my journey towards CompTIA A+, Network+, Security+, CCNA, AZ-104 and beyond.
+## About This Lab
 
-## Overview
-This repository contains all documentation, configurations, diagrams, and lessons learned from my home lab built on:
-- **Hardware**: Acer C27-1655 (Proxmox host with 32GB RAM), Mac Mini M4, MikroTik hEX S, future Cisco 2960 switch
-- **Core Tech**: Proxmox VE, pfSense/OPNsense, Windows Server Active Directory, Azure hybrid setup
+I'm building a practical, production-like home lab to gain real-world experience and skills to transition into a career in IT. 
 
-The goal is to gain real-world experience that helps me skip Level 1 helpdesk roles and move into Junior Network/Cloud Admin or SOC positions.
+The focus is on **hands-on infrastructure** that directly supports my certification path:
+- CompTIA A+ → Network+ → Security+
+- CCNA
+- Microsoft AZ-104 (Azure Administrator)
 
-## Lab Goals & Progress
-- [ ] Proxmox + isolated lab network (in progress)
-- [ ] MikroTik routing & firewall
-- [ ] Active Directory domain with Azure AD Connect
-- [ ] CCNA switching & routing labs
-- [ ] Hybrid Azure environment (AZ-104)
+This repository serves as living documentation of my journey — including hardware upgrades, configurations, network diagrams, troubleshooting notes, and lessons learned.
+
+### Lab Philosophy
+- Keep the lab **isolated** from the main home network (especially my wife's WFH setup)
+- Document everything as I go (screenshots, diagrams, configs)
+- Emphasise **why** I made certain design choices, not just "what" I did
+- Build reusable skills for Junior Network Admin, Cloud Admin, or SOC roles
+
+### Current Status (March 2026)
+- Proxmox host upgraded to 32 GB RAM and ready for clean install
+- MikroTik hEX S ordered (lab router)
+- Planning a hybrid wired setup behind TP-Link Archer AX1600
+
+See [progress-log.md](progress-log.md) for weekly updates.
 
 ## Repository Structure
 - `/projects/` → Detailed project folders by topic/cert
@@ -30,11 +38,7 @@ The goal is to gain real-world experience that helps me skip Level 1 helpdesk ro
 ## Hardware Inventory
 See [hardware-inventory.md](hardware-inventory.md)
 
-## How to Use This Repo
-Feel free to explore the projects folder.
-
 ## Contact / Connect
-- LinkedIn: [your profile]
 - X: @michealscott413
 
 ---
