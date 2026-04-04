@@ -18,12 +18,30 @@ This repository serves as living documentation of my journey — including hardw
 - Emphasise **why** I made certain design choices, not just "what" I did
 - Build reusable skills for Junior Network Admin, Cloud Admin, or SOC roles
 
-### Current Status (March 2026)
-- Proxmox host upgraded to 32 GB RAM and ready for clean install
-- MikroTik hEX S ordered (lab router)
-- Planning a hybrid wired setup behind TP-Link Archer AX1600
+## Current Lab Status (April 2026)
 
-See [progress-log.md](progress-log.md) for weekly updates.
+**Proxmox Host**
+- Hardware: Acer C27-1655 (i7-1165G7 + 32GB Kingston ValueRAM)
+- Proxmox VE 9.x installed cleanly
+- Network bridges created:
+  - `vmbr0`: Management bridge (Proxmox GUI at 192.168.1.50)
+  - `vmbr1`: Isolated lab bridge (ready for future VMs)
+- Screen blanking enabled (turns off after 5 minutes)
+- Subscription nag removed + repositories cleaned
+
+**First Test VM**
+- Ubuntu Server 24.04 LTS (VM ID 101)
+- Static IP: 192.168.1.101 on vmbr0
+- UEFI (OVMF) BIOS + QEMU Guest Agent running
+- Fully updated and internet functional
+
+**Next Milestones**
+- Receive MikroTik hEX S router
+- Set up isolated lab network behind MikroTik
+- Move test VMs to vmbr1 with NAT
+- Begin documenting CCNA / Network+ labs
+
+See [progress-log.md](progress-log.md) and [hardware-inventory.md](hardware-inventory.md) for details.
 
 ## Repository Structure
 - `/projects/` → Detailed project folders by topic/cert
@@ -35,8 +53,6 @@ See [progress-log.md](progress-log.md) for weekly updates.
 - **[Proxmox Setup](projects/01-proxmox-setup)**: Upgraded Acer AIO to 32GB RAM, clean Proxmox install, isolated bridges
 - **[MikroTik Lab](projects/02-mikrotik-lab)**: Router behind Archer AX1600 with separated lab network
 
-## Hardware Inventory
-See [hardware-inventory.md](hardware-inventory.md)
 
 ## Contact / Connect
 - X: @michealscott413
