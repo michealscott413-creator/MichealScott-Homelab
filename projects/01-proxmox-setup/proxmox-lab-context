@@ -11,7 +11,7 @@ Current setup:
 - MikroTik hEX S (RB760iGS) is ordered and on the way
 - Current test VM: Ubuntu Server 24.04 LTS (VM ID 101, static IP 192.168.1.101 on vmbr0, enp6s18 interface, QEMU Guest Agent running, UEFI BIOS)
 
-Goal: Keep the lab isolated from wife's WFH setup. Document everything in GitHub repo "MichealScott-Homelab".
+Goal: Keep the lab isolated from home wifi network. Document everything in GitHub repo "MichealScott-Homelab".
 
 Please continue helping me with the lab in a clear, step-by-step way. When giving commands, briefly explain what they do the first time.
 
