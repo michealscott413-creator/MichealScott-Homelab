@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="9Sm9KEHVXjkjF_r77-b1">
+    <mxGraphModel dx="1414" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XFPZI-CelTfwzBfhacav-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Archer VR1600v - modem/router/wifi" vertex="1">
+          <mxGeometry height="30" width="60" x="31.090000000000003" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="ISP" vertex="1">
+          <mxGeometry height="30" width="60" x="31.079999999999988" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-7" parent="1" style="shape=mxgraph.networks2.icon;aspect=fixed;fillColor=#EDEDED;strokeColor=#000000;gradientColor=#5B6163;network2IconShadow=1;network2bgFillColor=none;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;network2Icon=mxgraph.networks2.lan;network2IconYOffset=0.0558;network2IconW=1.0834;network2IconH=0.7564;" value="" vertex="1">
+          <mxGeometry height="57.37" width="82.17" x="20" y="456.32" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Home wifi network" vertex="1">
+          <mxGeometry height="30" width="60" x="31.090000000000003" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="250" width="310" x="450" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="lan1 ethernet" vertex="1">
+          <mxGeometry height="30" width="100" x="120" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Proxmox C27-1655 server" vertex="1">
+          <mxGeometry height="30" width="170" x="510" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;strokeColor=light-dark(#000000,#FF9933);">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="108.34999999999991" y="334.5" as="sourcePoint" />
+            <mxPoint x="250" y="334.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-2" edge="1" parent="1" source="XFPZI-CelTfwzBfhacav-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#FF9933);shape=link;width=4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="280" />
+              <mxPoint x="60" y="280" />
+            </Array>
+            <mxPoint x="60" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-24" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="78.86" x="29.490000000000002" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-1" edge="1" parent="1" source="XFPZI-CelTfwzBfhacav-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;strokeColor=light-dark(#000000,#FF9933);">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-25" parent="1" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="260" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-26" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.globe;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="46.08" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Mikrotik hex s wired router(to be installed)" vertex="1">
+          <mxGeometry height="30" width="80" x="260" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-34" parent="1" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="480" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Proxmox - v 9.x" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="426.32" as="geometry" />
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-13" edge="1" parent="1" source="XFPZI-CelTfwzBfhacav-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;strokeColor=light-dark(#000000,#007FFF);">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="VMBR0 (management bridge)" vertex="1">
+          <mxGeometry height="60" width="120" x="450" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-12" edge="1" parent="1" source="XFPZI-CelTfwzBfhacav-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;strokeColor=light-dark(#005700,#33FF33);">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XFPZI-CelTfwzBfhacav-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="VMBR1&amp;nbsp;&lt;div&gt;(isolated lab bridge)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-3" edge="1" parent="1" source="XFPZI-CelTfwzBfhacav-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.499;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;strokeColor=light-dark(#000000,#FF9933);" target="XFPZI-CelTfwzBfhacav-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-4" edge="1" parent="1" source="XFPZI-CelTfwzBfhacav-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;strokeColor=light-dark(#000000,#007FFF);fillColor=#1ba1e2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-10" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/OS_Images_Classic.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="69" x="280" y="553" as="geometry" />
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ubuntu-server 24.04&amp;nbsp; (192.168.1.101)" vertex="1">
+          <mxGeometry height="30" width="85.5" x="271.75" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IP 192.168.1.50" vertex="1">
+          <mxGeometry height="30" width="100" x="460" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="rAQaki5V98IMu0Cqqojs-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No IP" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="617" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
