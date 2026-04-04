@@ -2,30 +2,33 @@
 
 This log tracks my hands-on learning journey. I update it as I complete tasks.
 
+## April 2026
+
+** March 30 - April 05**
+- Successfully installed and configured Proxmox VE 9.x on Acer C27-1655
+- Created management bridge `vmbr0` (192.168.1.50) and isolated lab bridge `vmbr1`
+- Disabled subscription nag and cleaned repositories
+- Enabled screen blanking on AIO display
+- Created first test VM: Ubuntu Server 24.04 LTS (VM ID 101)
+- Configured static IP 192.168.1.101 + confirmed full internet access
+- Enabled QEMU Guest Agent
+- Created `proxmox-lab-context.md` for future chat threads
+- Completed Comptia A+ core 1 exam
+
 ## March 2026
 
-**March 30, 2026**
+**March 23-29, 2026**
 - Upgraded Acer C27-1655 from stock RAM to **32GB (2x16GB Kingston ValueRAM DDR4-3200)**
 - Cleaned dust from fans while opening the case
 - Created full system backup of original Windows installation
 - Created GitHub repo `MichealScott-Homelab` for documentation
 - Prepared Proxmox installation (ISO ready, but paused waiting for MikroTik + longer Ethernet cable)
 
-**March 25–29, 2026**
-- Researched best RAM for Acer C27-1655
-- Decided on Kingston ValueRAM after comparing Crucial and Team Elite
-- Ordered longer Cat6 cables and console cable
-
-## March 2026
-- Started studying for CompTIA A+
-- Researched home lab setups for skipping Level 1 IT roles
-
-## Goals for Next 30 Days (April 2026)
+## Goals for April 2026
 - Receive MikroTik hEX S and longer Cat6 cables
-- Complete clean Proxmox VE installation on Acer
 - Wire lab network: Archer AX1600 → MikroTik hEX S → Proxmox
-- Configure isolated lab network (separate from wife's WFH)
-- Document full Proxmox + MikroTik setup in `/projects/01-proxmox-setup/`
+- Configure isolated lab network (separate from home Wifi network)
+- Complete Comptia A+
 
 ## Overall Certification & Lab Roadmap (18 months)
 
