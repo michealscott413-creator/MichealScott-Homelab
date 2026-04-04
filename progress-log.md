@@ -4,7 +4,7 @@ This log tracks my hands-on learning journey. I update it as I complete tasks.
 
 ## April 2026
 
-** March 30 - April 05**
+**March 30 - April 05**
 - Successfully installed and configured Proxmox VE 9.x on Acer C27-1655
 - Created management bridge `vmbr0` (192.168.1.50) and isolated lab bridge `vmbr1`
 - Disabled subscription nag and cleaned repositories
