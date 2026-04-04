@@ -13,7 +13,7 @@ The focus is on **hands-on infrastructure** that directly supports my certificat
 This repository serves as living documentation of my journey — including hardware upgrades, configurations, network diagrams, troubleshooting notes, and lessons learned.
 
 ### Lab Philosophy
-- Keep the lab **isolated** from the main home network (especially my wife's WFH setup)
+- Keep the lab **isolated** from the main home network.
 - Document everything as I go (screenshots, diagrams, configs)
 - Emphasise **why** I made certain design choices, not just "what" I did
 - Build reusable skills for Junior Network Admin, Cloud Admin, or SOC roles
@@ -48,6 +48,13 @@ See [progress-log.md](progress-log.md) and [hardware-inventory.md](hardware-inve
 - `/docs/` → Guides and troubleshooting
 - `/diagrams/` → Network and architecture visuals
 - `/scripts/` → Automation and useful scripts
+
+## Current Lab Network Diagram
+
+![Current Homelab Network - April 2026](docs/diagrams/current-lab-overview.png)
+
+*Proxmox VE 9.x on Acer C27-1655 with management bridge `vmbr0` (192.168.1.50) and isolated lab bridge `vmbr1`.  
+MikroTik hEX S will be added soon between the Archer and Proxmox for proper routing and isolation.*
 
 ## Key Projects
 - **[Proxmox Setup](projects/01-proxmox-setup)**: Upgraded Acer AIO to 32GB RAM, clean Proxmox install, isolated bridges
