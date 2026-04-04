@@ -24,6 +24,14 @@
 
 ## Files
 - `proxmox-lab-context.md` (for continuing conversations)
-- Network diagram (to be added after MikroTik arrives)
+
+## Network Design
+
+![Current Lab Network Diagram](../../docs/diagrams/current-lab-overview.png)
+
+**Key Components:**
+- `vmbr0`: Management bridge (192.168.1.50) – used by Proxmox GUI and management VMs
+- `vmbr1`: Isolated lab bridge – future VMs will connect here
+- Ubuntu Server 24.04 (VM 101) currently on vmbr0 with static IP 192.168.1.101
 
 Last updated: April 4, 2026
