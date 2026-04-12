@@ -7,8 +7,8 @@ This project demonstrates the deployment of a hardened, isolated Layer 3 environ
 ## 🏗️ Network Topology
 
 mermaid
-
 graph TD
+
     subgraph "Home Network (192.168.1.0/24)"
         ISP((Internet)) --- Gateway[TP-Link Archer VR1600v]
     end
