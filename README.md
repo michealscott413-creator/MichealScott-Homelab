@@ -12,12 +12,6 @@ The focus is on **hands-on infrastructure** that directly supports my certificat
 
 This repository serves as living documentation of my journey — including hardware upgrades, configurations, network diagrams, troubleshooting notes, and lessons learned.
 
-### Lab Philosophy
-- Keep the lab **isolated** from the main home network.
-- Document everything as I go (screenshots, diagrams, configs)
-- Emphasise **why** I made certain design choices, not just "what" I did
-- Build reusable skills for Junior Network Admin, Cloud Admin, or SOC roles
-
 ## Current Lab Status (April 2026)
 
 **Proxmox Host**
@@ -25,9 +19,8 @@ This repository serves as living documentation of my journey — including hardw
 - Proxmox VE 9.x installed cleanly
 - Network bridges created:
   - `vmbr0`: Management bridge (Proxmox GUI at 192.168.1.50)
-  - `vmbr1`: Isolated lab bridge (ready for future VMs)
-- Screen blanking enabled (turns off after 5 minutes)
-- Subscription nag removed + repositories cleaned
+  - `vmbr1`: Isolated lab bridge 
+
 
 **First Test VM**
 - Ubuntu Server 24.04 LTS (VM ID 101)
